@@ -38,3 +38,6 @@ Non-max suppression uses IoU (Intersection over Union) method to remove overlapp
 We are using pre-trained YOLO model which converts a batch of (m, 608, 608, 3) to a tensor of shape (m, 19, 19, 5, 85)
 
 At last we'll run the Graph on our test images (available in '/images' folder) to visualize the bouding boxes on the images. We can also provide the images in a loop to get a video output.
+
+
+**YOLO h5 file download link: https://www.kaggle.com/rmoharir8396/yolo-h5-file**
